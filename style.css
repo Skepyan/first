@@ -4,7 +4,6 @@
 *:before{
     box-sizing: border-box;
 } 
- 
 body{                                                                                                                           
     font-family: 'Open Sans', sans-serif;
     color: #F7F7F7;
@@ -41,7 +40,6 @@ h1, h2, h3, h4, h5{
     flex-direction: column;
     justify-content: space-between;
 }
-
 .intro__title{
     color: #CD6326; 
     font-family: 'Open Sans', sans-serif;
@@ -155,8 +153,6 @@ h1, h2, h3, h4, h5{
     cursor: pointer;
     background: transparent;
 }
-
-
 .main_list{
     list-style: none;
     padding-left: 0;
@@ -171,23 +167,6 @@ h1, h2, h3, h4, h5{
 .main_lis_item_title{
     margin-top: -43px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .cearch_img{
     transition: .5s;
 }
@@ -197,7 +176,6 @@ h1, h2, h3, h4, h5{
 .registr:hover{
     background-color: #CD6326;
 }
-
 .registr:active{
     background-color: #8F5613;
 }
@@ -220,7 +198,6 @@ h1, h2, h3, h4, h5{
     text-align: center;
     color: #333333;
     padding-top: 120px;
-
 }
 .main_text_value{
     font-family: 'Open Sans', sans-serif;
