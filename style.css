@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5{
     background: url(img/fox.jpg) center no-repeat; 
     margin: 0 auto;
 }
-.intro__inner{
+.intro_inner{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,6 +66,13 @@ h1, h2, h3, h4, h5{
     border-radius: 5px;
     padding: 16px 42px 17px 42px;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;   
 }
 .btn__donate:hover{
     background: #E39128;
@@ -73,15 +80,6 @@ h1, h2, h3, h4, h5{
 .btn__donate:active{
     background: #8F5613; 
 }
-.btn__donate_text{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 27px;
-    text-align: center;
-    color: #F7F7F7;        
- }
 .header__inner{
     display: flex;
     justify-content: space-between;
@@ -104,7 +102,7 @@ h1, h2, h3, h4, h5{
     line-height: 60px;
     margin: 0;  
 }
-.navigation{
+.nav__link_item{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -122,7 +120,12 @@ h1, h2, h3, h4, h5{
     color: #E39128; 
 }
 
-.nav__link_item:hover{
+
+.nav__link_item_contacts:hover{
+    text-decoration: underline;
+    color: #E39128;
+}
+.nav__link_item_blog:hover{
     text-decoration: underline;
     color: #E39128;
 }
@@ -155,13 +158,13 @@ h1, h2, h3, h4, h5{
     padding-left: 0;
     margin: 0;
 }
-.main_lis_item_but{
+.main_list_item_but{
     margin-top: 46px;
 }
-.main_lis_item_text{
+.main_list_item_text{
     margin-top: 52px;
 }
-.main_lis_item_title{
+.main_list_item_title{
     margin-top: -43px;
 }
 .search_img{
@@ -216,12 +219,12 @@ h1, h2, h3, h4, h5{
     justify-content: center;
     align-items: center;
 }
-.left_array,
-.right_array{
+.left_arrow,
+.right_arrow{
     transition: .5s;
 }
-.left_array:hover,
-.right_array:hover{
+.left_arrow:hover,
+.right_arrow:hover{
     cursor: pointer;
     transform: scale(1.5)
 }
@@ -320,8 +323,6 @@ h1, h2, h3, h4, h5{
     background: #CD6326;
     border: 1px solid #CD6326;
     border-radius: 0px 5px 5px 0px;
-}
-.search_button_text{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-style: normal;
@@ -330,6 +331,7 @@ h1, h2, h3, h4, h5{
     font-size: 23px;
     color: #F7F7F7;
 }
+
 .footer_bg{
     background-image: url(img/footer_bg.jpg);
     height: 360px;
@@ -347,7 +349,7 @@ h1, h2, h3, h4, h5{
 .footer_information_list_about {
     margin-left: 85px;
 }
-.footer_information_list_learnMore{
+.footer_information_list_item_learnMore{
     margin-left: 88px;
 }
 .footer_information_list{
