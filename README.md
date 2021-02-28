@@ -1,1 +1,1 @@
-I think it is **good** exemple [WILD](https://Skepyan.github.io/first/tree/gh-pages/index) 
+I think it is **good** exemple [WILD](https://skepyan.github.io/first) 
